@@ -18,7 +18,7 @@ class Components{
     static ComponentA = {
         props: ['value'],
         template: `
-        <input type="range" min="10" max="30" step="1" v-bind:value="value" v-on:input="$emit('input', $event.target.value)">
+        <input type="range" min="18" max="60" step="1" v-bind:value="value" v-on:input="$emit('input', $event.target.value)">
         `
     };
     static ComponentB = {
